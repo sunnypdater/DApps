@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "chai": "^4.3.6"
+  },
+  "scripts": {
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23"
+  }
+}
